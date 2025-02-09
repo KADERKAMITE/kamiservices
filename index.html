@@ -1,0 +1,156 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamiservice - Agence de Voyage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .particle {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            animation: particleMove 10s infinite linear;
+        }
+
+        @keyframes particleMove {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <div class="company-name">KAMISERVICES</div>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#directrice">Responsable</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <h1>KAMISERVICES</h1>
+            <h3>Votre partenaire de voyage</h3>
+            <p>Découvrez le monde avec passion et simplicité</p>
+            <a href="#destinations" class="btn">Nos Destinations</a>
+        </section>
+
+        <section id="destinations">
+            <h2>Nos Destinations</h2>
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <img src="images/europe.jpg" alt="Destination Europe" class="destination-image">
+                    <h3>Europe</h3>
+                    <p>Circuits culturels et historiques</p>
+                </div>
+                <div class="destination-card">
+                    <img src="images/Asie.jpg" alt="Destination Asie" class="destination-image">
+                    <h3>Asie</h3>
+                    <p>Aventures exotiques et dépaysantes</p>
+                </div>
+                <div class="destination-card">
+                    <img src="images/amerique.jpg" alt="Destination Amérique" class="destination-image">
+                    <h3>Amérique</h3>
+                    <p>Voyages sur mesure</p>
+                </div>
+                <div class="destination-card">
+                    <img src="images/oceanie.jpg" alt="Destination Océanie" class="destination-image">
+                    <h3>Océanie</h3>
+                    <p>Découvertes tropicales et îles paradisiaques</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-passport fa-3x text-primary mb-3"></i>
+                    <h3>Assistance Visa</h3>
+                    <p>Assistance complète pour vos demandes de visa</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-plane fa-3x text-primary mb-3"></i>
+                    <h3>Vente de Billets</h3>
+                    <p>Trouvez les meilleurs tarifs et itinéraires</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-shield-alt fa-3x text-primary mb-3"></i>
+                    <h3>Assurance Voyage</h3>
+                    <p>Protection complète pour votre tranquillité</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hotel fa-3x text-primary mb-3"></i>
+                    <h3>Réservation Hôtel</h3>
+                    <p>Trouvez l'hébergement parfait pour votre voyage</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="directrice" class="directrice-section">
+            <h2>Directrice</h2>
+            <div class="directrice-content">
+                <div class="directrice-photo">
+                    <img src="images/Adja.jpg" alt="Adja, Directrice de Kamiservice">
+                </div>
+                <div class="directrice-bio">
+                    <h3>Adja Fatou Kamité</h3>
+                    <p>Adja fatou Kamité a fondé Kamiservices avec la conviction que chaque voyage doit être une expérience unique et mémorable. Avec plus de 5 ans d'expérience dans l'industrie du tourisme.</p>
+                    <p>Sa mission : créer des voyages sur mesure qui racontent des histoires et transforment des rêves en réalité.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Nom" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Votre message" required></textarea>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p> 2024 Kamiservice - Tous droits réservés</p>
+            <div class="reseaux-sociaux">
+                <a href="https://sn.linkedin.com/in/adja-fatou-kamite-405264255"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:kaderkamite8@gmail.com?subject=Sujet du message" target="_blank"><i class="bx bxl-gmail"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=221768784196&text&type=phone_number&app_absent=0" target="_blank"><i class="fab fa-whatsapp" ></i></a>
+            </div>
+            <div>
+                <p class="Kader">&copy;ce site a été réalisé par
+                    <a href="https://github.com/KADERKAMITE" target="_blank">
+                        <span>AbdoulKamité</span> 
+                    </a>| 
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+</body>
+</html>
