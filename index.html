@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyages Horizon | Votre agence de voyage experte</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">KAMI<span>SERVICES</span></a>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Responsable</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>Découvrez le monde avec Kamiservices</h1>
+            <p>Des expériences de voyage uniques et personnalisées pour créer des souvenirs inoubliables.</p>
+            <div class="hero-btns">
+                <a href="#destinations" class="btn">Nos destinations</a>
+                <a href="#contact" class="btn btn-accent">Contactez-nous</a>
+            </div>
+        </div>
+    </section>
+<!-- Video Section -->
+<section class="section video-section">
+    <div class="container">
+        <h2 class="section-title">Explorez le Monde avec Nous</h2>
+        <p class="video-subtitle">Découvrez nos destinations à travers cette vidéo immersive</p>
+        
+        <div class="video-container">
+            <div class="video-autoplay-container">
+                <!-- Remplacez l'URL par votre vidéo -->
+               <video autoplay muted loop playsinline>
+                <source src="images/Bienvenue.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="video-caption">
+                <p>les plus belles destinations de 2025</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Destinations Section -->
+    <section class="section destinations" id="destinations">
+        <div class="container">
+            <h2 class="section-title">Nos Destinations Populaires</h2>
+            <div class="destinations-grid">
+                <!-- Destination 1 -->
+                <div class="destination-card">
+                    <div class="destination-img">
+                        <img src="images/Paris.jpg" alt="Paris">
+                    </div>
+                    <div class="destination-info">
+                        <h3>France</h3>
+                        <p>Découvrez la ville de l'amour avec ses monuments emblématiques et sa cuisine raffinée.</p>
+                        <div class="destination-price">
+                            <span class="price"></span>
+                            <a href="#contact" class="btn">Contacter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 2 -->
+                <div class="destination-card">
+                    <div class="destination-img">
+                        <img src="images/canada.jpg" alt="Tokyo">
+                    </div>
+                    <div class="destination-info">
+                        <h3>Canada</h3>
+                        <p>un pays aux mille visages, des villes vibrantes comme Montréal, Vancouver ou Québec</p>
+                        <div class="destination-price">
+                            <span class="price"></span>
+                            <a href="#contact" class="btn">Contacter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 3 -->
+                <div class="destination-card">
+                    <div class="destination-img">
+                        <img src="images/usa.jpg" alt="New York">
+                    </div>
+                    <div class="destination-info">
+                        <h3>USA</h3>
+                        <p>Des gratte-ciel de New York aux déserts de l’Arizona — explorez les mille visages des USA.</p>
+                        <div class="destination-price">
+                            <span class="price"></span>
+                            <a href="#contact" class="btn">Contacter</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Destination 4 -->
+                <div class="destination-card">
+                    <div class="destination-img">
+                        <img src="images/chine.jpg" alt="Tokyo">
+                    </div>
+                    <div class="destination-info">
+                        <h3>Chine</h3>
+                        <p>De la Grande Muraille aux jardins secrets de Suzhou – découvrez la Chine entre légende et modernité.</p>
+                        <div class="destination-price">
+                            <span class="price"></span>
+                            <a href="#contact" class="btn">Contacter</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Destination 5 -->
+                <div class="destination-card">
+                    <div class="destination-img">
+                        <img src="images/italie.jpg" alt="Tokyo">
+                    </div>
+                    <div class="destination-info">
+                        <h3>Italie</h3>
+                        <p>De Rome à Venise, chaque pierre raconte une histoire… Découvrez l’Italie éternelle.</p>
+                        <div class="destination-price">
+                            <span class="price"></span>
+                            <a href="#contact" class="btn">Contacter</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Destination 6 -->
+                <div class="destination-card">
+                    <div class="destination-img">
+                        <img src="images/inde.jpg" alt="Tokyo">
+                    </div>
+                    <div class="destination-info">
+                        <h3>Inde</h3>
+                        <p>Palais du Rajasthan aux ghats du Gange – explorez l’Inde dans toute sa splendeur.</p>
+                        <div class="destination-price">
+                            <span class="price"></span>
+                            <a href="#contact" class="btn">Contacter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Services Section -->
+<section class="section services" id="services">
+    <div class="container">
+        <h2 class="section-title">Nos Services Exclusifs</h2>
+        <div class="services-grid">
+            <!-- Rangée 1 -->
+            <div class="service-card visa">
+                <div class="service-icon">
+                    <i class="fas fa-passport"></i>
+                </div>
+                <h3>Assistance Visa</h3>
+                <p>Voyager à l'étranger peut être une expérience passionnante, mais les formalités administratives liées à l'obtention d'un visa peuvent rapidement devenir stressantes et compliquées. Chez kamiservicesgroup, nous sommes là pour vous aider à naviguer à travers ces démarches en toute simplicité et tranquillité.</p>
+                
+            </div>
+
+            <div class="service-card hotel">
+                <div class="service-icon">
+                    <i class="fas fa-hotel"></i>
+                </div>
+                <h3>Réservation Hôtel</h3>
+                <p>Voyager en toute sérénité commence par un hébergement confortable et bien situé, nous nous engageons à vous trouver les meilleurs hôtels pour vos voyages, que ce soit pour des vacances, un voyage d'affaires, ou une escapade de week-end.</p>
+                
+            </div>
+
+            <div class="service-card tickets">
+                <div class="service-icon">
+                    <i class="fas fa-plane"></i>
+                </div>
+                <h3>Billets d'Avion</h3>
+                <p>Voyager vers votre destination préférée n’a jamais été aussi simple grâce à Kamiservices. Que vous planifiez un voyage d’affaires, des vacances en famille, ou une escapade romantique, nous vous aidons à trouver les meilleurs vols aux meilleurs tarifs.</p>
+                
+            </div>
+
+            <!-- Rangée 2 -->
+            <div class="service-card insurance">
+                <div class="service-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Assurance Voyage</h3>
+                <p>La tranquillité d'esprit est essentielle pour profiter pleinement de votre voyage, nous vous proposons des solutions d'assurance voyage complètes et adaptées à vos besoins, pour que vous puissiez partir l'esprit léger.</p>
+                
+            </div>
+
+            <div class="service-card photo">
+                <div class="service-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h3>Photo Minute</h3>
+                <p>Photos d'identité conformes aux normes internationales en moins de 5 minutes.</p>
+               
+            </div>
+
+            <div class="service-card printing">
+                <div class="service-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <h3>Immobilier</h3>
+                <p>Impression HD de vos documents de voyage, cartes et itineraires sur place.vous accompagne dans tous vos projets : achat, vente, location et gestion de biens. Que vous cherchiez un pied-à-terre, un investissement locatif ou votre résidence principale, nous trouvons le bien qui correspond à vos besoins</p>
+              
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Team Section -->
+    <section id="team" class="directrice-section">
+        <h2 class="section-title">Directrice</h2>
+        <div class="directrice-content">
+            <div class="directrice-photo">
+                <img src="images/Adja.jpg" alt="Adja, Directrice de Kamiservice">
+            </div>
+            <div class="directrice-bio">
+                <h3>Adja Fatou Kamité</h3>
+                <p>Adja fatou Kamité a fondé Kamiservices avec la conviction que chaque voyage doit être une expérience unique et mémorable. Avec plus de 5 ans d'expérience dans l'industrie du tourisme.</p>
+                <p>Sa mission : créer des voyages sur mesure qui racontent des histoires et transforment des rêves en réalité.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Partners Section -->
+<section class="section partners">
+    <div class="container">
+        <h2 class="section-title">Nos Partenaires</h2>
+        <div class="partners-slider">
+            <div class="partner-track">
+                <div class="partner-logo">
+                    <img src="images/askia.jpg" alt="Askia">
+                </div>
+                <div class="partner-logo">
+                    <img src="images/western.png" alt="western union">
+                </div>
+                <div class="partner-logo">
+                    <img src="images/orange.png" alt="orange">
+                </div>
+                <div class="partner-logo">
+                    <img src="images/wave.png" alt="wave">
+                </div>
+                <div class="partner-logo">
+                    <img src="images/free.png" alt="Free">
+                </div>
+                <div class="partner-logo">
+                    <img src="images/momeygram.png" alt="moneygram">
+                </div>
+                <div class="partner-logo">
+                    <img src="images/ria.png" alt="Ria">
+                </div>
+                <div class="partner-logo">
+                    <img src="images/wizall.png" alt="Wizall">
+                </div>
+                <div class="partner-logo">
+                    <img src="images/sesa.png" alt="Partenaire 6">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-Nous</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Planifiez votre prochaine aventure</h3>
+                    <p>À votre disposition pour créer le voyage de vos rêves. Remplissez le formulaire ou contactez-nous directement.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Adresse</h4>
+                                <p>Ouest Foire, lot 33 en face brioche dorée</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p>77 881 70 64 / 76 878 41 96</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>kamiservicesgroup@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://wa.me/778817064 " target="_blank" title="WhatsApp"><i class="fab fa-whatsapp" ></i></a>
+                        <a href="mailto:kamiservicesgroup@gmail.com" title="Envoyer un email" target="_blank"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61575513372518" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/kamiservicesgroup/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@kamiservicesgroup" title="TikTok" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://sn.linkedin.com/in/adja-fatou-kamite-405264255" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>kamiservicesgroup</h3>
+                    <p>Créateurs d'expériences de voyage mémorables. Notre passion est de vous faire découvrir le monde à travers des aventures uniques.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonials">Responsable</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Destinations</h3>
+                    <ul>
+                        <li><a href="#destinations">Schengen</a></li>
+                        <li><a href="#destinations">Asie</a></li>
+                        <li><a href="#destinations">Amériques</a></li>
+                        <li><a href="#destinations">Angletterre</a></li>
+                        <li><a href="#destinations">Océanie</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>À propos de nous</h3>
+                    <p>Nous sommes une agence de voyages dédiée et engagée à offrir les meilleures expériences de vacances à nos clients. Explorez le monde avec nous!</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p class="Kader">&copy;ce site a été réalisé par
+                    <a href="https://mon-portfolio-three-alpha.vercel.app/" target="_blank">
+                        <span>AbdoulKamité</span> 
+                    </a>| 
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
