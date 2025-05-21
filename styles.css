@@ -188,6 +188,7 @@ nav ul li a:hover:after {
     }
     .hero p {
         font-size: 0.9rem;
+        padding: 6rem 2rem;
     }
 }
 .hero-content {
