@@ -185,10 +185,11 @@ nav ul li a:hover:after {
 @media (max-width: 500px) {
     .hero h1 {
         font-size: 1.5rem;
+        padding: 6rem 2rem;
     }
     .hero p {
         font-size: 0.9rem;
-        padding: 6rem 2rem;
+        
     }
 }
 .hero-content {
