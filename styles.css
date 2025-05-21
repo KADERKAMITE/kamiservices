@@ -170,7 +170,7 @@ nav ul li a:hover:after {
 @media (max-width: 768px) {
     .hero {
         height: auto;
-        padding: 4rem 1rem;
+        padding: 6rem 2rem;
         background-position: center top;
     }
     .hero h1 {
